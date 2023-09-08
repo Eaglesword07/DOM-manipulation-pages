@@ -1,0 +1,2 @@
+# randomQuoteGenerator
+DOM maniputlation tricks
