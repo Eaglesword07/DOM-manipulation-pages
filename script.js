@@ -55,6 +55,9 @@ const quotes = [
     }
 ];
 
+
+// Event listener for quote selector
+
 btn.addEventListener('click', () => {
     const random = Math.floor(Math.random() * quotes.length);
 
