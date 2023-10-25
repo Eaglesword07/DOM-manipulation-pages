@@ -16,9 +16,9 @@ btnClose.addEventListener('click', () => {
     modalBtnOpen.style.display = "block";  // Show the initial button
 });
 
-window.addEventListener('click', (Event) => {
+window.addEventListener('click', function (e) {
 
-    if (Event.target === modalContainer) {
+    if (e.target === modalContainer) {
         modalContainer.style.display = "none";  // Hide the Modal Container when other parts of the screen is clicked
     }
 });
